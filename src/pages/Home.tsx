@@ -138,7 +138,11 @@ const Home = () => {
           on Aptos, so users can always trade <br className="mobile:hidden" /> with the best rates
         </Intro>
         <div>
-          <Button className="w-[320px]" variant="gradient" onClick={() => navigate('/swap')}>
+          <Button
+            className="w-[320px]"
+            variant="gradient"
+            disabled={true}
+            onClick={() => navigate('/swap')}>
             TRY SWAP
           </Button>
         </div>
@@ -157,7 +161,11 @@ const Home = () => {
               liquidity across all of them so that users can always trade with the best rates.
             </Intro>
             <div>
-              <Button variant="outlined" className="w-[260px]" onClick={() => navigate('/swap')}>
+              <Button
+                variant="outlined"
+                className="w-[260px]"
+                disabled={true}
+                onClick={() => navigate('/swap')}>
                 Swap Now
               </Button>
             </div>

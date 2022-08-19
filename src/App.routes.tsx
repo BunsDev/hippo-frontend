@@ -14,11 +14,13 @@ export const routes: TRoute[] = [
   {
     path: '',
     name: 'Home',
+    hidden: true,
     element: <Home />
   },
   {
     path: 'swap',
     name: 'Swap',
+    hidden: true,
     element: <Swap />
   },
   {
@@ -30,6 +32,7 @@ export const routes: TRoute[] = [
   {
     path: 'faucet',
     name: 'Faucet',
+    hidden: true,
     element: <Faucet />
   },
   // {

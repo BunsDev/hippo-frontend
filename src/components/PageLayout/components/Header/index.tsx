@@ -89,7 +89,7 @@ const PageHeader: React.FC = () => {
       )}>
       <div className="mx-auto h-full top-0 left-0 flex items-center relative">
         <MenuIcon
-          className="hidden w-[24px] h-[24px] mr-4 mobile:inline-block"
+          className="hidden w-[24px] h-[24px] mr-4 mobile:inline-block mobile:hidden"
           onClick={() => setIsSideMenuOpen(true)}
         />
         <div
