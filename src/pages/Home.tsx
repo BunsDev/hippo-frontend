@@ -149,7 +149,7 @@ const Home = () => {
             variant="gradient"
             disabled={true}
             onClick={() => navigate('/swap')}>
-            Mainnet Deploying {/* TRY SWAP */}
+            Mainnet Deploying ... {/* TRY SWAP */}
           </Button>
         </div>
       </div>
@@ -172,7 +172,7 @@ const Home = () => {
                 className="w-[260px]"
                 disabled={true}
                 onClick={() => navigate('/swap')}>
-                Mainnet Deploying {/* Swap Now */}
+                Mainnet Deploying ... {/* Swap Now */}
               </Button>
             </div>
           </div>
